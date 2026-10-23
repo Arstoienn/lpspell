@@ -367,3 +367,7 @@ those sets are in-sample and are not reported.
 | `examples/my_model.py` | a minimal custom model |
 | `tests/` | unit tests with a word-level stand-in model; optional backend tests |
 | `eval/` | the benchmark: test sets, LanguageTool runner, scoring, and the flags behind the tables |
+
+## License
+
+MIT; see [LICENSE](LICENSE).
