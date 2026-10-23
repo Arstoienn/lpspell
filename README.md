@@ -2,11 +2,17 @@
 
 **Catches *form* when you meant *from*.**
 
-LPSpell is a context-aware spell checker. Instead of checking each word against
-a dictionary in isolation, it uses a language model to judge whether every word
-fits the sentence it appears in. This lets it detect *real-word errors*:
-misspellings that happen to produce another valid word, which dictionary-based
-checkers cannot see. Any causal language model can be used.
+LPSpell (Log-Probability Spell) is a context-aware spell checker. Instead of
+checking each word against a dictionary in isolation, it uses a language
+model's log-probabilities to judge whether every word fits the sentence it
+appears in. This lets it detect *real-word errors*: misspellings that happen
+to produce another valid word, which dictionary-based checkers cannot see.
+Any causal language model can be used.
+
+On public test sets of real-word errors, LPSpell with a 0.5B-parameter model
+finds half to three-fifths of the errors, and most of what it flags is a real
+error (precision 0.80 to 0.97). That is more errors than LanguageTool finds
+on every set, with or without its n-gram rule; see [Evaluation](#evaluation).
 
 ## Motivation
 
@@ -167,23 +173,174 @@ for the input text and cannot be used directly. `tests/test_models.py` checks a
 backend against the interface:
 `LPSPELL_TEST_MODEL=llama:model.gguf pytest tests/test_models.py`.
 
+## Choice of model
+
+Every figure in this README comes from the default model,
+[`Qwen/Qwen2.5-0.5B`](https://huggingface.co/Qwen/Qwen2.5-0.5B). It has 0.5
+billion parameters and runs in bfloat16 through Hugging Face. It was chosen
+for two reasons:
+
+- It runs on a laptop: about 2.8 GB of memory, or 0.5 GB as a 4-bit GGUF.
+- It is a base model, as the interface above recommends.
+
+The method does not depend on this model, but no other model has been
+evaluated yet. Here is what a different model can and cannot be expected to
+change.
+
+- **Sharper judgements.** A larger model's probabilities carry more grammar,
+  meaning and world knowledge. It should separate the intended word from the
+  written one more cleanly. That means fewer false alarms on rare but correct
+  words and names, and more detections where only the meaning of the
+  sentence shows the error. Most of the safeguards above exist to hold back
+  a small model's priors, and a stronger model should lean on them less.
+- **The same ceiling on recall.** A model only ranks the candidates it is
+  given, and many test errors have no right candidate (see
+  [Evaluation](#evaluation)). On the dyslexic texts a better model could raise
+  correction recall from 45% to at most 56%. Going further means generating
+  more candidates, which is a change to the method, not the model.
+- **New parameters.** The thresholds and penalties are in nats. A different
+  model spreads its probabilities differently, so $\tau$ and $m$ in
+  particular need tuning again, on development text rather than the test sets.
+- **Cost and contamination.** Checking time grows with model size, and the
+  0.5B model is already slow (see [Limitations](#limitations)). Larger models
+  are also more likely to remember Wikipedia and the WSJ, which makes the
+  dyslexic texts the better gauge of a model change.
+
+The natural next step is a larger model of the same family, such as
+`Qwen/Qwen2.5-1.5B` or `Qwen/Qwen2.5-3B`. Any base causal model works with
+`--model hf:NAME`. `eval/bench.py run lpspell SET --model hf:NAME` measures it
+on the same test sets, and keeps its results beside the default model's.
+
 ## Evaluation
 
-Measured during development with `Qwen/Qwen2.5-0.5B`. The evaluation sets were
-written for this purpose and are not part of the repository.
+LPSpell has been evaluated on four public test sets of real-word errors, none
+of which was used during its development. It runs with the default parameters
+above, which were fixed before any of the sets was tried, and with
+`Qwen/Qwen2.5-0.5B`. The comparison is LanguageTool 6.6, run locally both on its
+rules alone and with its English n-gram data, which enables its statistical
+real-word rule: it compares easily confused words by their n-gram
+probabilities, from Google Books counts.
+`eval/` downloads the data and reproduces every figure below.
 
-| Set | Errors | Detected | Correct first suggestion | False flags |
+In short:
+
+- **LPSpell finds more real-word errors than LanguageTool on every set.** The
+  most trustworthy set is the dyslexic writing: its errors are natural, and
+  the model is the least likely to have seen the text. There LPSpell finds
+  50% of the errors, against 36% for LanguageTool with n-grams, with
+  precision 0.97 against 0.89 and fewer false alarms.
+- **What it flags is usually right.** Precision is 0.80 to 0.97. When it
+  detects an error, its first suggestion is the intended word 91% to 96% of
+  the time.
+- **It misses about half of the errors, mostly for want of a candidate.**
+  Only 56% to 69% of the errors have their intended word among the
+  candidates LPSpell tries. Of those within reach in the dyslexic texts, it
+  detects 81%.
+- **The 5- to 10-fold leads on Wikipedia and the WSJ overstate the gap.** The
+  model has probably seen that text. The WSJ errors are also random
+  substitutions, which fall outside LanguageTool's lists of confusable words.
+
+| Set | Text | Errors |
+|---|---|---|
+| Dyslexic writing (Pedler, 2007) | 675 sentences (about 12,000 words) by dyslexic writers: homework, essays, office documents, mailing-list posts | 834, natural |
+| Wikipedia (Zesch, 2012) | 451 sentences in which an editor corrected a real-word error, each also given corrected (16 of the 467 are fragments and are left out) | 451, natural |
+| WSJ, content words | 199 *Wall Street Journal* articles (79,586 words), the Penn Treebank sample distributed with NLTK | 398, inserted |
+| WSJ, any word | the same articles | 398, inserted |
+
+The WSJ sets rebuild the malapropism test of Hirst and Budanitsky (2005),
+whose corpus is licensed by the LDC and was never distributed. One word in 200
+is replaced by a random real word at Damerau-Levenshtein distance 1 (from the
+28,000 words that `wordfreq` sees at least once per million), at most one per
+sentence. The first set draws only non-stop words, as they did; the second
+draws any word, as Wilcox-O'Hearn, Hirst and Budanitsky (2008) did.
+
+A flag *detects* an error when their spans overlap, and *corrects* it when its
+first suggestion is the intended word. Precision is the share of flags that
+detect an error. For LanguageTool, which also reports grammar, style and
+punctuation, only matches that replace a single word count. Since every
+marked error is a real word, the main table leaves out the flags of each
+system's dictionary check (LPSpell's non-words, LanguageTool's spelling
+dictionary), which fall on names, rare words and misspellings the sets do not
+mark; the second table keeps them.
+
+Context flags only:
+
+| Set | System | Detection P | Detection R | Correction R | False alarms per 1,000 words |
+|---|---|---|---|---|---|
+| Dyslexic writing | LPSpell | 0.97 | 0.50 | 0.45 | 1.3 |
+| | LanguageTool | 0.85 | 0.26 | 0.23 | 3.1 |
+| | LanguageTool + n-grams | 0.89 | 0.36 | 0.33 | 3.3 |
+| Wikipedia | LPSpell | 0.88 | 0.59 | 0.54 | 2.0 |
+| | LanguageTool | 0.37 | 0.04 | 0.04 | 1.7 |
+| | LanguageTool + n-grams | 0.58 | 0.10 | 0.09 | 1.7 |
+| WSJ, content words | LPSpell | 0.83 | 0.63 | 0.60 | 0.7 |
+| | LanguageTool | 0.36 | 0.05 | 0.04 | 0.5 |
+| | LanguageTool + n-grams | 0.37 | 0.06 | 0.04 | 0.5 |
+| WSJ, any word | LPSpell | 0.80 | 0.53 | 0.51 | 0.7 |
+| | LanguageTool | 0.46 | 0.08 | 0.05 | 0.5 |
+| | LanguageTool + n-grams | 0.47 | 0.10 | 0.06 | 0.5 |
+
+All flags, including dictionary flags:
+
+| Set | System | Detection P | Detection R | False alarms per 1,000 words |
 |---|---|---|---|---|
-| Development (45 sentences) | 29 | 28 | 28 | 0 |
-| Held out (32 sentences, written after tuning) | 20 | 20 | 20 | 0 |
+| Dyslexic writing | LPSpell | 0.91 | 0.50 | 3.5 |
+| | LanguageTool + n-grams | 0.80 | 0.37 | 6.3 |
+| Wikipedia | LPSpell | 0.54 | 0.60 | 12.3 |
+| | LanguageTool + n-grams | 0.13 | 0.11 | 18.5 |
+| WSJ, content words | LPSpell | 0.32 | 0.68 | 7.2 |
+| | LanguageTool + n-grams | 0.04 | 0.10 | 12.9 |
+| WSJ, any word | LPSpell | 0.30 | 0.62 | 7.2 |
+| | LanguageTool + n-grams | 0.06 | 0.17 | 12.9 |
 
-On a larger synthetic set (513 cases built from 182 correct sentences, each
-altered once by a confusion-group swap and once by a keyboard typo), both
-macOS's built-in checker and LPSpell found all 182 typos. Of the 149 real-word
-errors, macOS's checker, with grammar checking enabled, found 81; LPSpell found
-127 with 17 false flags before its confusion groups were extended, and all 149
-with no false flags afterwards. The latter figure is in-sample, since the
-extended groups include those used to build the set.
+More on the points above:
+
+- **Errors out of reach.** `eval/bench.py reach` counts them. They are
+  grammatical slips (*is/are*, *a/an*), words two or more edits away, and
+  inflections (*commons* for *common*), which LPSpell never suggests by
+  design and which make up 19% to 31% of the WSJ errors.
+- **Why the Wikipedia and WSJ leads are inflated.** LanguageTool's rules, its
+  n-gram rule included, check lists of known confusable words (*their/there*,
+  *brakes/breaks*), and the WSJ's random substitutions mostly fall outside
+  them. Qwen2.5 was also trained on web data that almost certainly includes
+  Wikipedia, and probably these WSJ articles, which circulate widely as the
+  Penn Treebank. A model that remembers the original wording finds
+  substitutions in it more easily.
+- **Precision is a lower bound.** The sets mark only some of their errors,
+  and a flag on any other word counts as a false alarm. About half of
+  LPSpell's 15 context false alarms on the dyslexic texts are real errors (*The
+  test are too long*, *has not personal experience*). The Wikipedia sentences
+  lost their apostrophes when they were extracted, and 12 of LPSpell's 37
+  false alarms there restore one (*the courts opinion*, *Its cheap*).
+- **Sampling error.** With 398 to 834 errors per set, each recall figure has
+  a 95% interval of about ±3 to ±5 points.
+
+For reference, After the Deadline's 2010 test on the dyslexic corpus, which
+accepted every suggestion and counted any change to a marked word as found,
+reported 41% for Microsoft Word 2007 and 9% for the checker in Mac OS X 10.6.
+
+The flags behind these tables are in `eval/results/`; `eval/bench.py score`
+recomputes the tables from them. To rerun the systems (the test sets are
+downloaded and checked against their SHA-256 on first use; LanguageTool needs
+Java 17 or later, its
+[6.6 release](https://languagetool.org/download/LanguageTool-6.6.zip) unpacked
+in `eval/data/`, and for the n-gram rule its
+[English n-gram data](https://languagetool.org/download/ngram-data/) of about
+14 GB):
+
+```bash
+.venv/bin/python eval/bench.py run lpspell pedler wikipedia wsj-content wsj-any
+.venv/bin/python eval/bench.py run languagetool-ngrams pedler wikipedia wsj-content wsj-any --ngrams eval/data/ngrams
+.venv/bin/python eval/bench.py score --all-flags
+```
+
+LPSpell takes about three hours for all four sets on an Apple M3,
+LanguageTool a few minutes.
+
+During development, the parameters and confusion groups were tuned on about
+80 sentences written by the author, and on 513 cases made by altering 182 more
+of the author's sentences with the author's own confusion groups. Results on
+those sets are in-sample and are not reported.
 
 ## Limitations
 
@@ -193,9 +350,10 @@ extended groups include those used to build the set.
   out of scope.
 - A small model is fallible on its own; the margin and the safeguards trade
   some recall for precision.
-- With `Qwen/Qwen2.5-0.5B` on an Apple M3, checking takes under a second per
-  sentence. Peak memory is about 2.8 GB through Hugging Face, or about 0.5 GB
-  with a 4-bit GGUF through llama.cpp.
+- It is slow. With `Qwen/Qwen2.5-0.5B` through Hugging Face on an Apple M3,
+  the test sets above ran at 12 to 15 words a second, or 1.2 to 1.6 seconds
+  per sentence: each suspicious word and each confusion-group word costs a
+  full rescoring of its sentence per candidate.
 
 ## Repository structure
 
@@ -208,3 +366,4 @@ extended groups include those used to build the set.
 | `src/lpspell/cli.py` | the `lpspell` command |
 | `examples/my_model.py` | a minimal custom model |
 | `tests/` | unit tests with a word-level stand-in model; optional backend tests |
+| `eval/` | the benchmark: test sets, LanguageTool runner, scoring, and the flags behind the tables |
