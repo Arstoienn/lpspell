@@ -1,0 +1,902 @@
+{"id": "wiki-0-120122819-err", "flags": []}
+{"id": "wiki-0-120122819-ok", "flags": []}
+{"id": "wiki-1-61214150-err", "flags": []}
+{"id": "wiki-1-61214150-ok", "flags": []}
+{"id": "wiki-2-13367362-err", "flags": []}
+{"id": "wiki-2-13367362-ok", "flags": []}
+{"id": "wiki-3-179289476-err", "flags": []}
+{"id": "wiki-3-179289476-ok", "flags": []}
+{"id": "wiki-4-404258651-err", "flags": [{"start": 54, "end": 59, "word": "goaty", "fix": "goat", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-4-404258651-ok", "flags": [{"start": 55, "end": 60, "word": "goaty", "fix": "goat", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-5-11127785-err", "flags": []}
+{"id": "wiki-5-11127785-ok", "flags": []}
+{"id": "wiki-6-20362496-err", "flags": []}
+{"id": "wiki-6-20362496-ok", "flags": []}
+{"id": "wiki-7-334229662-err", "flags": []}
+{"id": "wiki-7-334229662-ok", "flags": []}
+{"id": "wiki-8-354022715-err", "flags": [{"start": 12, "end": 19, "word": "Thacher", "fix": "Teacher", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-8-354022715-ok", "flags": [{"start": 12, "end": 19, "word": "Thacher", "fix": "Teacher", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-9-362151178-err", "flags": []}
+{"id": "wiki-9-362151178-ok", "flags": []}
+{"id": "wiki-12-23470626-err", "flags": []}
+{"id": "wiki-12-23470626-ok", "flags": []}
+{"id": "wiki-13-117566693-err", "flags": []}
+{"id": "wiki-13-117566693-ok", "flags": []}
+{"id": "wiki-14-107282132-err", "flags": [{"start": 70, "end": 76, "word": "Amdahl", "fix": "Dahl", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 77, "end": 80, "word": "UTS", "fix": "ITS", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-14-107282132-ok", "flags": [{"start": 69, "end": 75, "word": "Amdahl", "fix": "Dahl", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 76, "end": 79, "word": "UTS", "fix": "ITS", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-15-4826804-err", "flags": []}
+{"id": "wiki-15-4826804-ok", "flags": []}
+{"id": "wiki-16-163114464-err", "flags": []}
+{"id": "wiki-16-163114464-ok", "flags": []}
+{"id": "wiki-17-181854197-err", "flags": []}
+{"id": "wiki-17-181854197-ok", "flags": []}
+{"id": "wiki-18-15658125-err", "flags": []}
+{"id": "wiki-18-15658125-ok", "flags": []}
+{"id": "wiki-19-6136435-err", "flags": []}
+{"id": "wiki-19-6136435-ok", "flags": []}
+{"id": "wiki-20-62243153-err", "flags": [{"start": 11, "end": 18, "word": "Tramiel", "fix": "Trammel", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-20-62243153-ok", "flags": [{"start": 11, "end": 18, "word": "Tramiel", "fix": "Trammel", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-21-71859584-err", "flags": []}
+{"id": "wiki-21-71859584-ok", "flags": []}
+{"id": "wiki-22-306865167-err", "flags": []}
+{"id": "wiki-22-306865167-ok", "flags": []}
+{"id": "wiki-23-355040089-err", "flags": [{"start": 16, "end": 25, "word": "Ferncliff", "fix": "Fern cliff", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 53, "end": 58, "word": "layed", "fix": "laid", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-23-355040089-ok", "flags": [{"start": 16, "end": 25, "word": "Ferncliff", "fix": "Fern cliff", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-24-101899402-err", "flags": [{"start": 14, "end": 24, "word": "emphasises", "fix": "emphases", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-24-101899402-ok", "flags": [{"start": 14, "end": 24, "word": "emphasises", "fix": "emphases", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-25-69538722-err", "flags": [{"start": 49, "end": 60, "word": "DeLaboulaye", "fix": null, "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-25-69538722-ok", "flags": [{"start": 49, "end": 60, "word": "DeLaboulaye", "fix": null, "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-26-104388020-err", "flags": []}
+{"id": "wiki-26-104388020-ok", "flags": []}
+{"id": "wiki-27-130534812-err", "flags": [{"start": 27, "end": 35, "word": "calender", "fix": "calendar", "rule": "CALENDER", "kind": "realword"}]}
+{"id": "wiki-27-130534812-ok", "flags": []}
+{"id": "wiki-28-265983204-err", "flags": []}
+{"id": "wiki-28-265983204-ok", "flags": []}
+{"id": "wiki-29-282548212-err", "flags": []}
+{"id": "wiki-29-282548212-ok", "flags": []}
+{"id": "wiki-30-140354019-err", "flags": []}
+{"id": "wiki-30-140354019-ok", "flags": []}
+{"id": "wiki-31-20420183-err", "flags": []}
+{"id": "wiki-31-20420183-ok", "flags": []}
+{"id": "wiki-32-80218122-err", "flags": []}
+{"id": "wiki-32-80218122-ok", "flags": []}
+{"id": "wiki-33-35372730-err", "flags": []}
+{"id": "wiki-33-35372730-ok", "flags": []}
+{"id": "wiki-34-283603034-err", "flags": []}
+{"id": "wiki-34-283603034-ok", "flags": []}
+{"id": "wiki-35-411178489-err", "flags": [{"start": 124, "end": 129, "word": "patay", "fix": "Patsy", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 156, "end": 161, "word": "aloja", "fix": "aloha", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-35-411178489-ok", "flags": [{"start": 124, "end": 129, "word": "patay", "fix": "Patsy", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 156, "end": 161, "word": "aloja", "fix": "aloha", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-36-24930333-err", "flags": []}
+{"id": "wiki-36-24930333-ok", "flags": []}
+{"id": "wiki-37-284964078-err", "flags": []}
+{"id": "wiki-37-284964078-ok", "flags": []}
+{"id": "wiki-38-214872314-err", "flags": []}
+{"id": "wiki-38-214872314-ok", "flags": []}
+{"id": "wiki-39-281443460-err", "flags": []}
+{"id": "wiki-39-281443460-ok", "flags": []}
+{"id": "wiki-40-28857271-err", "flags": []}
+{"id": "wiki-40-28857271-ok", "flags": []}
+{"id": "wiki-42-329425578-err", "flags": []}
+{"id": "wiki-42-329425578-ok", "flags": []}
+{"id": "wiki-43-20581802-err", "flags": [{"start": 0, "end": 8, "word": "Therfore", "fix": "Therefore", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 37, "end": 41, "word": "frac", "fix": "franc", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 123, "end": 127, "word": "frac", "fix": "franc", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 131, "end": 135, "word": "frac", "fix": "franc", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 145, "end": 149, "word": "frac", "fix": "franc", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 159, "end": 163, "word": "frac", "fix": "franc", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 173, "end": 177, "word": "frac", "fix": "franc", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-43-20581802-ok", "flags": [{"start": 0, "end": 8, "word": "Therfore", "fix": "Therefore", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 37, "end": 41, "word": "frac", "fix": "franc", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 123, "end": 127, "word": "frac", "fix": "franc", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 131, "end": 135, "word": "frac", "fix": "franc", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 145, "end": 149, "word": "frac", "fix": "franc", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 159, "end": 163, "word": "frac", "fix": "franc", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 173, "end": 177, "word": "frac", "fix": "franc", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-44-111793361-err", "flags": []}
+{"id": "wiki-44-111793361-ok", "flags": []}
+{"id": "wiki-45-128712768-err", "flags": []}
+{"id": "wiki-45-128712768-ok", "flags": []}
+{"id": "wiki-46-206898192-err", "flags": []}
+{"id": "wiki-46-206898192-ok", "flags": []}
+{"id": "wiki-47-266745263-err", "flags": []}
+{"id": "wiki-47-266745263-ok", "flags": []}
+{"id": "wiki-48-328623940-err", "flags": [{"start": 13, "end": 19, "word": "Dostum", "fix": "Dos tum", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-48-328623940-ok", "flags": [{"start": 13, "end": 19, "word": "Dostum", "fix": "Dos tum", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-49-233930429-err", "flags": []}
+{"id": "wiki-49-233930429-ok", "flags": []}
+{"id": "wiki-50-29632851-err", "flags": []}
+{"id": "wiki-50-29632851-ok", "flags": []}
+{"id": "wiki-51-202747410-err", "flags": []}
+{"id": "wiki-51-202747410-ok", "flags": []}
+{"id": "wiki-52-332949023-err", "flags": []}
+{"id": "wiki-52-332949023-ok", "flags": []}
+{"id": "wiki-53-5226460-err", "flags": []}
+{"id": "wiki-53-5226460-ok", "flags": []}
+{"id": "wiki-54-8868553-err", "flags": []}
+{"id": "wiki-54-8868553-ok", "flags": []}
+{"id": "wiki-55-162628216-err", "flags": []}
+{"id": "wiki-55-162628216-ok", "flags": []}
+{"id": "wiki-56-164153792-err", "flags": []}
+{"id": "wiki-56-164153792-ok", "flags": []}
+{"id": "wiki-58-59382822-err", "flags": []}
+{"id": "wiki-58-59382822-ok", "flags": []}
+{"id": "wiki-59-321427941-err", "flags": [{"start": 87, "end": 94, "word": "Russias", "fix": "Russia's", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-59-321427941-ok", "flags": [{"start": 87, "end": 94, "word": "Russias", "fix": "Russia's", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-60-56686933-err", "flags": []}
+{"id": "wiki-60-56686933-ok", "flags": []}
+{"id": "wiki-61-65931713-err", "flags": []}
+{"id": "wiki-61-65931713-ok", "flags": []}
+{"id": "wiki-62-39655419-err", "flags": []}
+{"id": "wiki-62-39655419-ok", "flags": []}
+{"id": "wiki-63-187418988-err", "flags": []}
+{"id": "wiki-63-187418988-ok", "flags": []}
+{"id": "wiki-64-278902984-err", "flags": []}
+{"id": "wiki-64-278902984-ok", "flags": []}
+{"id": "wiki-65-90740731-err", "flags": []}
+{"id": "wiki-65-90740731-ok", "flags": []}
+{"id": "wiki-66-128763223-err", "flags": [{"start": 28, "end": 34, "word": "states", "fix": "state", "rule": "MD_BASEFORM", "kind": "realword"}]}
+{"id": "wiki-66-128763223-ok", "flags": [{"start": 28, "end": 34, "word": "states", "fix": "state", "rule": "MD_BASEFORM", "kind": "realword"}]}
+{"id": "wiki-67-380178778-err", "flags": []}
+{"id": "wiki-67-380178778-ok", "flags": []}
+{"id": "wiki-69-94125387-err", "flags": []}
+{"id": "wiki-69-94125387-ok", "flags": []}
+{"id": "wiki-70-181681051-err", "flags": [{"start": 108, "end": 119, "word": "Abergavenny", "fix": null, "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-70-181681051-ok", "flags": [{"start": 109, "end": 120, "word": "Abergavenny", "fix": null, "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-71-228100944-err", "flags": [{"start": 67, "end": 71, "word": "deux", "fix": "deus", "rule": "DEUS_EX_MACHINA", "kind": "realword"}]}
+{"id": "wiki-71-228100944-ok", "flags": []}
+{"id": "wiki-72-112876868-err", "flags": []}
+{"id": "wiki-72-112876868-ok", "flags": []}
+{"id": "wiki-73-114016164-err", "flags": []}
+{"id": "wiki-73-114016164-ok", "flags": []}
+{"id": "wiki-74-341632570-err", "flags": [{"start": 9, "end": 15, "word": "Camlin", "fix": "Carlin", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-74-341632570-ok", "flags": [{"start": 9, "end": 15, "word": "Camlin", "fix": "Carlin", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-75-329589815-err", "flags": []}
+{"id": "wiki-75-329589815-ok", "flags": []}
+{"id": "wiki-76-259686445-err", "flags": []}
+{"id": "wiki-76-259686445-ok", "flags": []}
+{"id": "wiki-77-51602053-err", "flags": []}
+{"id": "wiki-77-51602053-ok", "flags": []}
+{"id": "wiki-78-2077436-err", "flags": [{"start": 17, "end": 23, "word": "Fernie", "fix": "Bernie", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 78, "end": 85, "word": "Lifeson", "fix": "Life son", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-78-2077436-ok", "flags": [{"start": 17, "end": 23, "word": "Fernie", "fix": "Bernie", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 79, "end": 86, "word": "Lifeson", "fix": "Life son", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-79-126035103-err", "flags": []}
+{"id": "wiki-79-126035103-ok", "flags": []}
+{"id": "wiki-80-62959945-err", "flags": []}
+{"id": "wiki-80-62959945-ok", "flags": []}
+{"id": "wiki-81-251699261-err", "flags": [{"start": 65, "end": 77, "word": "unfortunatly", "fix": "unfortunately", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 106, "end": 111, "word": "Shaul", "fix": "Shall", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-81-251699261-ok", "flags": [{"start": 65, "end": 77, "word": "unfortunatly", "fix": "unfortunately", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 106, "end": 111, "word": "Shaul", "fix": "Shall", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-82-413752862-err", "flags": []}
+{"id": "wiki-82-413752862-ok", "flags": []}
+{"id": "wiki-83-56380478-err", "flags": []}
+{"id": "wiki-83-56380478-ok", "flags": []}
+{"id": "wiki-84-56427660-err", "flags": [{"start": 78, "end": 84, "word": "looses", "fix": "loses", "rule": "LOOSE_LOSE", "kind": "realword"}]}
+{"id": "wiki-84-56427660-ok", "flags": []}
+{"id": "wiki-85-323965930-err", "flags": []}
+{"id": "wiki-85-323965930-ok", "flags": []}
+{"id": "wiki-86-399887984-err", "flags": [{"start": 164, "end": 170, "word": "earing", "fix": "airing", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-86-399887984-ok", "flags": []}
+{"id": "wiki-87-237432-err", "flags": [{"start": 23, "end": 27, "word": "went", "fix": "gone", "rule": "HAVE_PART_AGREEMENT", "kind": "realword"}]}
+{"id": "wiki-87-237432-ok", "flags": [{"start": 23, "end": 27, "word": "went", "fix": "gone", "rule": "HAVE_PART_AGREEMENT", "kind": "realword"}]}
+{"id": "wiki-88-89179005-err", "flags": []}
+{"id": "wiki-88-89179005-ok", "flags": []}
+{"id": "wiki-89-110246234-err", "flags": []}
+{"id": "wiki-89-110246234-ok", "flags": []}
+{"id": "wiki-90-139677677-err", "flags": [{"start": 0, "end": 6, "word": "Armour", "fix": "Armor", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 94, "end": 100, "word": "armour", "fix": "armor", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-90-139677677-ok", "flags": [{"start": 0, "end": 6, "word": "Armour", "fix": "Armor", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 94, "end": 100, "word": "armour", "fix": "armor", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-91-164582909-err", "flags": [{"start": 95, "end": 100, "word": "Habor", "fix": "Labor", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-91-164582909-ok", "flags": [{"start": 95, "end": 100, "word": "Habor", "fix": "Labor", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-92-21397490-err", "flags": []}
+{"id": "wiki-92-21397490-ok", "flags": []}
+{"id": "wiki-93-95179362-err", "flags": []}
+{"id": "wiki-93-95179362-ok", "flags": []}
+{"id": "wiki-94-114046835-err", "flags": []}
+{"id": "wiki-94-114046835-ok", "flags": []}
+{"id": "wiki-95-117019612-err", "flags": [{"start": 63, "end": 76, "word": "Osteonecrosis", "fix": "Osteopetrosis", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 103, "end": 113, "word": "imperfecta", "fix": "imperfect", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-95-117019612-ok", "flags": [{"start": 63, "end": 76, "word": "Osteonecrosis", "fix": "Osteopetrosis", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 103, "end": 113, "word": "imperfecta", "fix": "imperfect", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-96-87668829-err", "flags": []}
+{"id": "wiki-96-87668829-ok", "flags": []}
+{"id": "wiki-97-139144136-err", "flags": []}
+{"id": "wiki-97-139144136-ok", "flags": []}
+{"id": "wiki-98-215212048-err", "flags": []}
+{"id": "wiki-98-215212048-ok", "flags": []}
+{"id": "wiki-99-6892609-err", "flags": []}
+{"id": "wiki-99-6892609-ok", "flags": []}
+{"id": "wiki-100-114923996-err", "flags": []}
+{"id": "wiki-100-114923996-ok", "flags": []}
+{"id": "wiki-101-115064500-err", "flags": []}
+{"id": "wiki-101-115064500-ok", "flags": []}
+{"id": "wiki-102-229223258-err", "flags": [{"start": 32, "end": 39, "word": "withrew", "fix": "withdrew", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 56, "end": 59, "word": "Haj", "fix": "Had", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 60, "end": 64, "word": "wasa", "fix": "was", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-102-229223258-ok", "flags": [{"start": 32, "end": 39, "word": "withrew", "fix": "withdrew", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 56, "end": 59, "word": "Haj", "fix": "Had", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 60, "end": 64, "word": "wasa", "fix": "was", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-103-1585028-err", "flags": []}
+{"id": "wiki-103-1585028-ok", "flags": []}
+{"id": "wiki-104-82388293-err", "flags": []}
+{"id": "wiki-104-82388293-ok", "flags": []}
+{"id": "wiki-105-86213835-err", "flags": [{"start": 88, "end": 92, "word": "dont", "fix": "don't", "rule": "EN_CONTRACTION_SPELLING", "kind": "realword"}]}
+{"id": "wiki-105-86213835-ok", "flags": [{"start": 88, "end": 92, "word": "dont", "fix": "don't", "rule": "EN_CONTRACTION_SPELLING", "kind": "realword"}]}
+{"id": "wiki-106-5273806-err", "flags": []}
+{"id": "wiki-106-5273806-ok", "flags": []}
+{"id": "wiki-107-5744070-err", "flags": []}
+{"id": "wiki-107-5744070-ok", "flags": []}
+{"id": "wiki-108-105127798-err", "flags": [{"start": 128, "end": 133, "word": "citys", "fix": "cities", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-108-105127798-ok", "flags": [{"start": 128, "end": 133, "word": "citys", "fix": "cities", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-109-183067384-err", "flags": []}
+{"id": "wiki-109-183067384-ok", "flags": []}
+{"id": "wiki-110-291649890-err", "flags": [{"start": 0, "end": 7, "word": "Zaytsev", "fix": "Zante", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-110-291649890-ok", "flags": [{"start": 0, "end": 7, "word": "Zaytsev", "fix": "Zante", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-112-156295058-err", "flags": []}
+{"id": "wiki-112-156295058-ok", "flags": []}
+{"id": "wiki-113-39576006-err", "flags": []}
+{"id": "wiki-113-39576006-ok", "flags": []}
+{"id": "wiki-114-108371067-err", "flags": []}
+{"id": "wiki-114-108371067-ok", "flags": []}
+{"id": "wiki-115-64532634-err", "flags": [{"start": 86, "end": 93, "word": "Fenholt", "fix": "Felt", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-115-64532634-ok", "flags": [{"start": 86, "end": 93, "word": "Fenholt", "fix": "Felt", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-116-63417352-err", "flags": []}
+{"id": "wiki-116-63417352-ok", "flags": []}
+{"id": "wiki-117-285222515-err", "flags": [{"start": 136, "end": 141, "word": "pubic", "fix": "public", "rule": "PUBIC_X", "kind": "realword"}]}
+{"id": "wiki-117-285222515-ok", "flags": []}
+{"id": "wiki-118-203692530-err", "flags": [{"start": 101, "end": 106, "word": "loose", "fix": "lose", "rule": "LOOSE_LOSE", "kind": "realword"}]}
+{"id": "wiki-118-203692530-ok", "flags": []}
+{"id": "wiki-120-17847785-err", "flags": []}
+{"id": "wiki-120-17847785-ok", "flags": []}
+{"id": "wiki-121-108495234-err", "flags": [{"start": 0, "end": 8, "word": "Duruttes", "fix": "Curettes", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 71, "end": 79, "word": "Ziethens", "fix": "Zithers", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-121-108495234-ok", "flags": [{"start": 0, "end": 8, "word": "Duruttes", "fix": "Curettes", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 71, "end": 79, "word": "Ziethens", "fix": "Zithers", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-122-342654075-err", "flags": [{"start": 127, "end": 137, "word": "Hougoumont", "fix": null, "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-122-342654075-ok", "flags": [{"start": 127, "end": 137, "word": "Hougoumont", "fix": null, "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-123-217994313-err", "flags": []}
+{"id": "wiki-123-217994313-ok", "flags": []}
+{"id": "wiki-125-46701082-err", "flags": []}
+{"id": "wiki-125-46701082-ok", "flags": []}
+{"id": "wiki-126-307893766-err", "flags": []}
+{"id": "wiki-126-307893766-ok", "flags": []}
+{"id": "wiki-127-404108527-err", "flags": [{"start": 0, "end": 6, "word": "Coogan", "fix": "Coggan", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-127-404108527-ok", "flags": [{"start": 0, "end": 6, "word": "Coogan", "fix": "Coggan", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-128-346227853-err", "flags": []}
+{"id": "wiki-128-346227853-ok", "flags": []}
+{"id": "wiki-129-112074190-err", "flags": [{"start": 45, "end": 54, "word": "Stedeford", "fix": "Bedford", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 55, "end": 64, "word": "favouring", "fix": "favoring", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 158, "end": 167, "word": "Stedeford", "fix": "Bedford", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-129-112074190-ok", "flags": [{"start": 45, "end": 54, "word": "Stedeford", "fix": "Bedford", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 55, "end": 64, "word": "favouring", "fix": "favoring", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 158, "end": 167, "word": "Stedeford", "fix": "Bedford", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-131-54575149-err", "flags": [{"start": 22, "end": 27, "word": "Janes", "fix": "Jane's", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 28, "end": 35, "word": "Defence", "fix": "Defense", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-131-54575149-ok", "flags": [{"start": 22, "end": 27, "word": "Janes", "fix": "Jane's", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 28, "end": 35, "word": "Defence", "fix": "Defense", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-132-306852543-err", "flags": [{"start": 91, "end": 99, "word": "Fairford", "fix": "Hereford", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-132-306852543-ok", "flags": [{"start": 91, "end": 99, "word": "Fairford", "fix": "Hereford", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-133-173204986-err", "flags": [{"start": 57, "end": 62, "word": "Summa", "fix": "Sumba", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 63, "end": 73, "word": "Theologica", "fix": "Theological", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-133-173204986-ok", "flags": [{"start": 57, "end": 62, "word": "Summa", "fix": "Sumba", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 63, "end": 73, "word": "Theologica", "fix": "Theological", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-134-218015278-err", "flags": []}
+{"id": "wiki-134-218015278-ok", "flags": []}
+{"id": "wiki-135-235933193-err", "flags": []}
+{"id": "wiki-135-235933193-ok", "flags": []}
+{"id": "wiki-136-1122422-err", "flags": []}
+{"id": "wiki-136-1122422-ok", "flags": []}
+{"id": "wiki-137-156317147-err", "flags": []}
+{"id": "wiki-137-156317147-ok", "flags": []}
+{"id": "wiki-138-111634644-err", "flags": []}
+{"id": "wiki-138-111634644-ok", "flags": []}
+{"id": "wiki-139-37352917-err", "flags": []}
+{"id": "wiki-139-37352917-ok", "flags": []}
+{"id": "wiki-140-65060272-err", "flags": [{"start": 0, "end": 6, "word": "Theres", "fix": "There's", "rule": "EN_CONTRACTION_SPELLING", "kind": "realword"}, {"start": 37, "end": 43, "word": "Nitbus", "fix": "Nimbus", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 57, "end": 61, "word": "Mohn", "fix": "John", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-140-65060272-ok", "flags": [{"start": 0, "end": 6, "word": "Theres", "fix": "There's", "rule": "EN_CONTRACTION_SPELLING", "kind": "realword"}, {"start": 37, "end": 43, "word": "Nitbus", "fix": "Nimbus", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 57, "end": 61, "word": "Mohn", "fix": "John", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-141-142723937-err", "flags": []}
+{"id": "wiki-141-142723937-ok", "flags": []}
+{"id": "wiki-142-413364594-err", "flags": []}
+{"id": "wiki-142-413364594-ok", "flags": []}
+{"id": "wiki-143-402512965-err", "flags": []}
+{"id": "wiki-143-402512965-ok", "flags": []}
+{"id": "wiki-144-234947779-err", "flags": [{"start": 83, "end": 87, "word": "resp", "fix": "rest", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-144-234947779-ok", "flags": [{"start": 83, "end": 87, "word": "resp", "fix": "rest", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-145-384785811-err", "flags": []}
+{"id": "wiki-145-384785811-ok", "flags": []}
+{"id": "wiki-146-95878318-err", "flags": []}
+{"id": "wiki-146-95878318-ok", "flags": []}
+{"id": "wiki-147-100447857-err", "flags": []}
+{"id": "wiki-147-100447857-ok", "flags": []}
+{"id": "wiki-148-245758588-err", "flags": []}
+{"id": "wiki-148-245758588-ok", "flags": []}
+{"id": "wiki-149-138837724-err", "flags": []}
+{"id": "wiki-149-138837724-ok", "flags": []}
+{"id": "wiki-150-50929651-err", "flags": [{"start": 16, "end": 24, "word": "GameCube", "fix": "Game Cube", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-150-50929651-ok", "flags": [{"start": 16, "end": 24, "word": "GameCube", "fix": "Game Cube", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-151-78830780-err", "flags": [{"start": 31, "end": 42, "word": "Schoenbergs", "fix": "Schoenberg's", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-151-78830780-ok", "flags": [{"start": 31, "end": 42, "word": "Schoenbergs", "fix": "Schoenberg's", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-152-297889339-err", "flags": [{"start": 7, "end": 12, "word": "Perle", "fix": "Perl", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 25, "end": 35, "word": "Antokoletz", "fix": null, "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 105, "end": 116, "word": "inversional", "fix": "in versional", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-152-297889339-ok", "flags": [{"start": 7, "end": 12, "word": "Perle", "fix": "Perl", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 25, "end": 35, "word": "Antokoletz", "fix": null, "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 105, "end": 116, "word": "inversional", "fix": "in versional", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-153-35913712-err", "flags": []}
+{"id": "wiki-153-35913712-ok", "flags": []}
+{"id": "wiki-154-209116899-err", "flags": []}
+{"id": "wiki-154-209116899-ok", "flags": []}
+{"id": "wiki-155-267320617-err", "flags": []}
+{"id": "wiki-155-267320617-ok", "flags": []}
+{"id": "wiki-156-161789617-err", "flags": [{"start": 37, "end": 43, "word": "Bruces", "fix": "Bruce's", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-156-161789617-ok", "flags": [{"start": 37, "end": 43, "word": "Bruces", "fix": "Bruce's", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-157-221065601-err", "flags": []}
+{"id": "wiki-157-221065601-ok", "flags": []}
+{"id": "wiki-158-18731550-err", "flags": [{"start": 18, "end": 27, "word": "referance", "fix": "reference", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-158-18731550-ok", "flags": [{"start": 18, "end": 27, "word": "referance", "fix": "reference", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-159-182519356-err", "flags": []}
+{"id": "wiki-159-182519356-ok", "flags": []}
+{"id": "wiki-160-400826135-err", "flags": []}
+{"id": "wiki-160-400826135-ok", "flags": []}
+{"id": "wiki-161-272918546-err", "flags": []}
+{"id": "wiki-161-272918546-ok", "flags": []}
+{"id": "wiki-162-175638807-err", "flags": []}
+{"id": "wiki-162-175638807-ok", "flags": []}
+{"id": "wiki-163-84844541-err", "flags": []}
+{"id": "wiki-163-84844541-ok", "flags": []}
+{"id": "wiki-164-238772279-err", "flags": [{"start": 49, "end": 55, "word": "theyll", "fix": "they'll", "rule": "EN_CONTRACTION_SPELLING", "kind": "realword"}]}
+{"id": "wiki-164-238772279-ok", "flags": [{"start": 49, "end": 55, "word": "theyll", "fix": "they'll", "rule": "EN_CONTRACTION_SPELLING", "kind": "realword"}]}
+{"id": "wiki-165-135161466-err", "flags": []}
+{"id": "wiki-165-135161466-ok", "flags": []}
+{"id": "wiki-166-176775428-err", "flags": []}
+{"id": "wiki-166-176775428-ok", "flags": []}
+{"id": "wiki-167-218769270-err", "flags": []}
+{"id": "wiki-167-218769270-ok", "flags": []}
+{"id": "wiki-168-667843-err", "flags": []}
+{"id": "wiki-168-667843-ok", "flags": []}
+{"id": "wiki-169-28514858-err", "flags": []}
+{"id": "wiki-169-28514858-ok", "flags": []}
+{"id": "wiki-170-306130415-err", "flags": []}
+{"id": "wiki-170-306130415-ok", "flags": []}
+{"id": "wiki-171-99922266-err", "flags": []}
+{"id": "wiki-171-99922266-ok", "flags": []}
+{"id": "wiki-172-305820106-err", "flags": [{"start": 98, "end": 111, "word": "skuldsanering", "fix": null, "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-172-305820106-ok", "flags": [{"start": 98, "end": 111, "word": "skuldsanering", "fix": null, "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-173-168961607-err", "flags": []}
+{"id": "wiki-173-168961607-ok", "flags": []}
+{"id": "wiki-174-260667204-err", "flags": []}
+{"id": "wiki-174-260667204-ok", "flags": []}
+{"id": "wiki-175-176308715-err", "flags": [{"start": 7, "end": 13, "word": "Strick", "fix": "Struck", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-175-176308715-ok", "flags": [{"start": 7, "end": 13, "word": "Strick", "fix": "Struck", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-176-197545888-err", "flags": []}
+{"id": "wiki-176-197545888-ok", "flags": []}
+{"id": "wiki-177-263998782-err", "flags": [{"start": 21, "end": 27, "word": "Shreck", "fix": "Shrek", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 54, "end": 63, "word": "Cobblepot", "fix": "Cobble pot", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-177-263998782-ok", "flags": [{"start": 21, "end": 27, "word": "Shreck", "fix": "Shrek", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 54, "end": 63, "word": "Cobblepot", "fix": "Cobble pot", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-178-252101713-err", "flags": []}
+{"id": "wiki-178-252101713-ok", "flags": []}
+{"id": "wiki-179-224380222-err", "flags": []}
+{"id": "wiki-179-224380222-ok", "flags": []}
+{"id": "wiki-180-82595581-err", "flags": []}
+{"id": "wiki-180-82595581-ok", "flags": []}
+{"id": "wiki-182-345357177-err", "flags": []}
+{"id": "wiki-182-345357177-ok", "flags": []}
+{"id": "wiki-183-124813324-err", "flags": []}
+{"id": "wiki-183-124813324-ok", "flags": []}
+{"id": "wiki-184-134405179-err", "flags": []}
+{"id": "wiki-184-134405179-ok", "flags": []}
+{"id": "wiki-185-155799808-err", "flags": []}
+{"id": "wiki-185-155799808-ok", "flags": []}
+{"id": "wiki-186-51513107-err", "flags": []}
+{"id": "wiki-186-51513107-ok", "flags": []}
+{"id": "wiki-187-70875728-err", "flags": [{"start": 163, "end": 169, "word": "prises", "fix": "prices", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-187-70875728-ok", "flags": []}
+{"id": "wiki-188-184898134-err", "flags": []}
+{"id": "wiki-188-184898134-ok", "flags": []}
+{"id": "wiki-189-108481824-err", "flags": []}
+{"id": "wiki-189-108481824-ok", "flags": []}
+{"id": "wiki-190-297653934-err", "flags": [{"start": 32, "end": 37, "word": "Buzan", "fix": "Suzan", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-190-297653934-ok", "flags": [{"start": 32, "end": 37, "word": "Buzan", "fix": "Suzan", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-191-407784306-err", "flags": []}
+{"id": "wiki-191-407784306-ok", "flags": []}
+{"id": "wiki-192-117331908-err", "flags": []}
+{"id": "wiki-192-117331908-ok", "flags": []}
+{"id": "wiki-193-232155637-err", "flags": []}
+{"id": "wiki-193-232155637-ok", "flags": []}
+{"id": "wiki-194-376453929-err", "flags": []}
+{"id": "wiki-194-376453929-ok", "flags": []}
+{"id": "wiki-195-256225332-err", "flags": [{"start": 150, "end": 161, "word": "frequentist", "fix": "frequentest", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-195-256225332-ok", "flags": [{"start": 150, "end": 161, "word": "frequentist", "fix": "frequentest", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-196-92301897-err", "flags": []}
+{"id": "wiki-196-92301897-ok", "flags": [{"start": 179, "end": 187, "word": "etiology", "fix": "ethology", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-197-259156464-err", "flags": []}
+{"id": "wiki-197-259156464-ok", "flags": []}
+{"id": "wiki-198-155602516-err", "flags": []}
+{"id": "wiki-198-155602516-ok", "flags": []}
+{"id": "wiki-199-357169998-err", "flags": []}
+{"id": "wiki-199-357169998-ok", "flags": []}
+{"id": "wiki-200-128870237-err", "flags": []}
+{"id": "wiki-200-128870237-ok", "flags": []}
+{"id": "wiki-201-203364979-err", "flags": []}
+{"id": "wiki-201-203364979-ok", "flags": []}
+{"id": "wiki-202-214907090-err", "flags": []}
+{"id": "wiki-202-214907090-ok", "flags": []}
+{"id": "wiki-203-329337701-err", "flags": [{"start": 98, "end": 103, "word": "JDAMs", "fix": "Adams", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-203-329337701-ok", "flags": [{"start": 98, "end": 103, "word": "JDAMs", "fix": "Adams", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-204-321701364-err", "flags": []}
+{"id": "wiki-204-321701364-ok", "flags": []}
+{"id": "wiki-205-307342528-err", "flags": []}
+{"id": "wiki-205-307342528-ok", "flags": []}
+{"id": "wiki-206-308017285-err", "flags": [{"start": 8, "end": 16, "word": "Cavenham", "fix": "Dagenham", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 36, "end": 42, "word": "Bovril", "fix": "Boris", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-206-308017285-ok", "flags": [{"start": 8, "end": 16, "word": "Cavenham", "fix": "Dagenham", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 36, "end": 42, "word": "Bovril", "fix": "Boris", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-207-207446582-err", "flags": []}
+{"id": "wiki-207-207446582-ok", "flags": []}
+{"id": "wiki-208-2203948-err", "flags": []}
+{"id": "wiki-208-2203948-ok", "flags": []}
+{"id": "wiki-209-290556994-err", "flags": []}
+{"id": "wiki-209-290556994-ok", "flags": []}
+{"id": "wiki-210-380019939-err", "flags": []}
+{"id": "wiki-210-380019939-ok", "flags": []}
+{"id": "wiki-211-307553444-err", "flags": [{"start": 63, "end": 70, "word": "Philbin", "fix": "Phil bin", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-211-307553444-ok", "flags": [{"start": 63, "end": 70, "word": "Philbin", "fix": "Phil bin", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-212-99218029-err", "flags": []}
+{"id": "wiki-212-99218029-ok", "flags": []}
+{"id": "wiki-213-117854653-err", "flags": [{"start": 33, "end": 41, "word": "factbook", "fix": "Facebook", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-213-117854653-ok", "flags": [{"start": 32, "end": 40, "word": "factbook", "fix": "Facebook", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-214-122600793-err", "flags": []}
+{"id": "wiki-214-122600793-ok", "flags": []}
+{"id": "wiki-215-165961985-err", "flags": []}
+{"id": "wiki-215-165961985-ok", "flags": []}
+{"id": "wiki-216-12013159-err", "flags": [{"start": 7, "end": 11, "word": "dont", "fix": "don't", "rule": "EN_CONTRACTION_SPELLING", "kind": "realword"}, {"start": 87, "end": 94, "word": "Canadas", "fix": "Canada's", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-216-12013159-ok", "flags": [{"start": 7, "end": 11, "word": "dont", "fix": "don't", "rule": "EN_CONTRACTION_SPELLING", "kind": "realword"}, {"start": 88, "end": 95, "word": "Canadas", "fix": "Canada's", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-217-1968073-err", "flags": []}
+{"id": "wiki-217-1968073-ok", "flags": []}
+{"id": "wiki-218-44054230-err", "flags": []}
+{"id": "wiki-218-44054230-ok", "flags": []}
+{"id": "wiki-219-50166495-err", "flags": []}
+{"id": "wiki-219-50166495-ok", "flags": []}
+{"id": "wiki-220-94863232-err", "flags": []}
+{"id": "wiki-220-94863232-ok", "flags": []}
+{"id": "wiki-221-31082070-err", "flags": []}
+{"id": "wiki-221-31082070-ok", "flags": []}
+{"id": "wiki-222-51029078-err", "flags": []}
+{"id": "wiki-222-51029078-ok", "flags": []}
+{"id": "wiki-223-18166418-err", "flags": []}
+{"id": "wiki-223-18166418-ok", "flags": []}
+{"id": "wiki-224-253068047-err", "flags": [{"start": 39, "end": 46, "word": "motoric", "fix": "motor", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-224-253068047-ok", "flags": [{"start": 39, "end": 46, "word": "motoric", "fix": "motor", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-225-326699266-err", "flags": []}
+{"id": "wiki-225-326699266-ok", "flags": []}
+{"id": "wiki-227-384982301-err", "flags": []}
+{"id": "wiki-227-384982301-ok", "flags": []}
+{"id": "wiki-228-237533193-err", "flags": []}
+{"id": "wiki-228-237533193-ok", "flags": []}
+{"id": "wiki-229-264047701-err", "flags": []}
+{"id": "wiki-229-264047701-ok", "flags": []}
+{"id": "wiki-230-95791036-err", "flags": [{"start": 92, "end": 102, "word": "principals", "fix": "principles", "rule": "IN_PRINCIPAL", "kind": "realword"}]}
+{"id": "wiki-230-95791036-ok", "flags": []}
+{"id": "wiki-231-104456980-err", "flags": []}
+{"id": "wiki-231-104456980-ok", "flags": []}
+{"id": "wiki-232-15208264-err", "flags": []}
+{"id": "wiki-232-15208264-ok", "flags": []}
+{"id": "wiki-233-79821435-err", "flags": []}
+{"id": "wiki-233-79821435-ok", "flags": []}
+{"id": "wiki-234-100883358-err", "flags": []}
+{"id": "wiki-234-100883358-ok", "flags": []}
+{"id": "wiki-235-58222842-err", "flags": [{"start": 127, "end": 138, "word": "instuctions", "fix": "instructions", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-235-58222842-ok", "flags": [{"start": 127, "end": 138, "word": "instuctions", "fix": "instructions", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-236-163327730-err", "flags": []}
+{"id": "wiki-236-163327730-ok", "flags": []}
+{"id": "wiki-237-241735-err", "flags": []}
+{"id": "wiki-237-241735-ok", "flags": []}
+{"id": "wiki-238-15168970-err", "flags": [{"start": 57, "end": 63, "word": "Ussuri", "fix": "USSR", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-238-15168970-ok", "flags": [{"start": 57, "end": 63, "word": "Ussuri", "fix": "USSR", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-239-61590587-err", "flags": []}
+{"id": "wiki-239-61590587-ok", "flags": []}
+{"id": "wiki-240-132815102-err", "flags": []}
+{"id": "wiki-240-132815102-ok", "flags": []}
+{"id": "wiki-241-18320-err", "flags": []}
+{"id": "wiki-241-18320-ok", "flags": []}
+{"id": "wiki-242-208258275-err", "flags": []}
+{"id": "wiki-242-208258275-ok", "flags": []}
+{"id": "wiki-243-14438502-err", "flags": []}
+{"id": "wiki-243-14438502-ok", "flags": []}
+{"id": "wiki-244-11403776-err", "flags": [{"start": 0, "end": 4, "word": "RJII", "fix": "RJ II", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-244-11403776-ok", "flags": [{"start": 0, "end": 4, "word": "RJII", "fix": "RJ II", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-245-11813361-err", "flags": []}
+{"id": "wiki-245-11813361-ok", "flags": []}
+{"id": "wiki-246-340536894-err", "flags": [{"start": 0, "end": 6, "word": "Castas", "fix": "Casts", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-246-340536894-ok", "flags": [{"start": 0, "end": 6, "word": "Castas", "fix": "Casts", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-247-206659228-err", "flags": []}
+{"id": "wiki-247-206659228-ok", "flags": []}
+{"id": "wiki-248-342409838-err", "flags": [{"start": 34, "end": 40, "word": "Barkun", "fix": "Baron", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-248-342409838-ok", "flags": [{"start": 34, "end": 40, "word": "Barkun", "fix": "Baron", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-249-355046866-err", "flags": []}
+{"id": "wiki-249-355046866-ok", "flags": []}
+{"id": "wiki-250-401213820-err", "flags": [{"start": 120, "end": 128, "word": "economys", "fix": "economies", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-250-401213820-ok", "flags": [{"start": 120, "end": 128, "word": "economys", "fix": "economies", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-251-291247556-err", "flags": [{"start": 32, "end": 38, "word": "Ciprea", "fix": "Circa", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-251-291247556-ok", "flags": [{"start": 32, "end": 38, "word": "Ciprea", "fix": "Circa", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-252-318991105-err", "flags": []}
+{"id": "wiki-252-318991105-ok", "flags": []}
+{"id": "wiki-253-352149282-err", "flags": []}
+{"id": "wiki-253-352149282-ok", "flags": []}
+{"id": "wiki-254-51296034-err", "flags": []}
+{"id": "wiki-254-51296034-ok", "flags": []}
+{"id": "wiki-255-80901416-err", "flags": []}
+{"id": "wiki-255-80901416-ok", "flags": []}
+{"id": "wiki-256-101330136-err", "flags": []}
+{"id": "wiki-256-101330136-ok", "flags": []}
+{"id": "wiki-257-119117272-err", "flags": [{"start": 30, "end": 37, "word": "canabis", "fix": "cannabis", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-257-119117272-ok", "flags": [{"start": 30, "end": 37, "word": "canabis", "fix": "cannabis", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-258-316742098-err", "flags": []}
+{"id": "wiki-258-316742098-ok", "flags": []}
+{"id": "wiki-259-26719215-err", "flags": [{"start": 36, "end": 45, "word": "Byzantion", "fix": "Byzantine", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-259-26719215-ok", "flags": [{"start": 36, "end": 45, "word": "Byzantion", "fix": "Byzantine", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-260-86312608-err", "flags": [{"start": 83, "end": 91, "word": "Kernewek", "fix": "Renewed", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-260-86312608-ok", "flags": [{"start": 83, "end": 91, "word": "Kernewek", "fix": "Renewed", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-261-47659296-err", "flags": []}
+{"id": "wiki-261-47659296-ok", "flags": [{"start": 166, "end": 172, "word": "livres", "fix": "lives", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-262-281832605-err", "flags": [{"start": 92, "end": 103, "word": "Technomages", "fix": "Techno mages", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-262-281832605-ok", "flags": [{"start": 92, "end": 103, "word": "Technomages", "fix": "Techno mages", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-263-27685386-err", "flags": []}
+{"id": "wiki-263-27685386-ok", "flags": []}
+{"id": "wiki-264-93263083-err", "flags": [{"start": 46, "end": 54, "word": "Ritledge", "fix": "Rutledge", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-264-93263083-ok", "flags": [{"start": 46, "end": 54, "word": "Ritledge", "fix": "Rutledge", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-265-198021223-err", "flags": []}
+{"id": "wiki-265-198021223-ok", "flags": []}
+{"id": "wiki-266-242190-err", "flags": [{"start": 17, "end": 25, "word": "calender", "fix": "calendar", "rule": "CALENDER", "kind": "realword"}]}
+{"id": "wiki-266-242190-ok", "flags": []}
+{"id": "wiki-267-264443171-err", "flags": [{"start": 69, "end": 78, "word": "oxidising", "fix": "oxidizing", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-267-264443171-ok", "flags": [{"start": 69, "end": 78, "word": "oxidising", "fix": "oxidizing", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-268-272783924-err", "flags": []}
+{"id": "wiki-268-272783924-ok", "flags": []}
+{"id": "wiki-269-395686696-err", "flags": []}
+{"id": "wiki-269-395686696-ok", "flags": []}
+{"id": "wiki-270-391258106-err", "flags": []}
+{"id": "wiki-270-391258106-ok", "flags": []}
+{"id": "wiki-271-370530820-err", "flags": []}
+{"id": "wiki-271-370530820-ok", "flags": []}
+{"id": "wiki-272-173800163-err", "flags": []}
+{"id": "wiki-272-173800163-ok", "flags": []}
+{"id": "wiki-273-289873918-err", "flags": [{"start": 78, "end": 84, "word": "Cégeps", "fix": "CEGEP", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 89, "end": 96, "word": "Collège", "fix": "College", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 99, "end": 111, "word": "enseignement", "fix": "engagement", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 112, "end": 119, "word": "général", "fix": "general", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 123, "end": 136, "word": "professionnel", "fix": "professional", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-273-289873918-ok", "flags": [{"start": 78, "end": 84, "word": "Cégeps", "fix": "CEGEP", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 89, "end": 96, "word": "Collège", "fix": "College", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 99, "end": 111, "word": "enseignement", "fix": "engagement", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 112, "end": 119, "word": "général", "fix": "general", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 123, "end": 136, "word": "professionnel", "fix": "professional", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-274-30529201-err", "flags": []}
+{"id": "wiki-274-30529201-ok", "flags": []}
+{"id": "wiki-275-198562737-err", "flags": []}
+{"id": "wiki-275-198562737-ok", "flags": []}
+{"id": "wiki-276-142362316-err", "flags": []}
+{"id": "wiki-276-142362316-ok", "flags": []}
+{"id": "wiki-277-115357013-err", "flags": []}
+{"id": "wiki-277-115357013-ok", "flags": []}
+{"id": "wiki-278-49940362-err", "flags": [{"start": 67, "end": 70, "word": "use", "fix": "used", "rule": "USE_TO_VERB", "kind": "realword"}]}
+{"id": "wiki-278-49940362-ok", "flags": []}
+{"id": "wiki-279-8894406-err", "flags": []}
+{"id": "wiki-279-8894406-ok", "flags": []}
+{"id": "wiki-280-2310376-err", "flags": []}
+{"id": "wiki-280-2310376-ok", "flags": []}
+{"id": "wiki-281-221416219-err", "flags": []}
+{"id": "wiki-281-221416219-ok", "flags": []}
+{"id": "wiki-283-69380102-err", "flags": []}
+{"id": "wiki-283-69380102-ok", "flags": []}
+{"id": "wiki-284-85677497-err", "flags": [{"start": 113, "end": 124, "word": "speleothems", "fix": null, "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-284-85677497-ok", "flags": [{"start": 112, "end": 123, "word": "speleothems", "fix": null, "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-285-39108348-err", "flags": []}
+{"id": "wiki-285-39108348-ok", "flags": []}
+{"id": "wiki-286-111892949-err", "flags": []}
+{"id": "wiki-286-111892949-ok", "flags": []}
+{"id": "wiki-287-3086843-err", "flags": []}
+{"id": "wiki-287-3086843-ok", "flags": []}
+{"id": "wiki-288-21238373-err", "flags": [{"start": 58, "end": 64, "word": "Lewiss", "fix": "Lewis's", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 80, "end": 87, "word": "couldnt", "fix": "couldn't", "rule": "EN_CONTRACTION_SPELLING", "kind": "realword"}]}
+{"id": "wiki-288-21238373-ok", "flags": [{"start": 58, "end": 64, "word": "Lewiss", "fix": "Lewis's", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 80, "end": 87, "word": "couldnt", "fix": "couldn't", "rule": "EN_CONTRACTION_SPELLING", "kind": "realword"}]}
+{"id": "wiki-289-25350254-err", "flags": []}
+{"id": "wiki-289-25350254-ok", "flags": []}
+{"id": "wiki-290-303569433-err", "flags": []}
+{"id": "wiki-290-303569433-ok", "flags": []}
+{"id": "wiki-291-200343774-err", "flags": []}
+{"id": "wiki-291-200343774-ok", "flags": []}
+{"id": "wiki-292-85112550-err", "flags": []}
+{"id": "wiki-292-85112550-ok", "flags": []}
+{"id": "wiki-293-15866679-err", "flags": [{"start": 170, "end": 175, "word": "heath", "fix": "health", "rule": "HEATH_HEALTH", "kind": "realword"}]}
+{"id": "wiki-293-15866679-ok", "flags": []}
+{"id": "wiki-294-251857457-err", "flags": [{"start": 0, "end": 5, "word": "Pubic", "fix": "Public", "rule": "PUBIC_X", "kind": "realword"}]}
+{"id": "wiki-294-251857457-ok", "flags": []}
+{"id": "wiki-295-25676216-err", "flags": []}
+{"id": "wiki-295-25676216-ok", "flags": []}
+{"id": "wiki-296-27570958-err", "flags": []}
+{"id": "wiki-296-27570958-ok", "flags": []}
+{"id": "wiki-297-293411536-err", "flags": [{"start": 124, "end": 128, "word": "ware", "fix": "were", "rule": "WARE_WEAR", "kind": "realword"}]}
+{"id": "wiki-297-293411536-ok", "flags": []}
+{"id": "wiki-298-178810627-err", "flags": [{"start": 0, "end": 6, "word": "COGDEN", "fix": "OGDEN", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-298-178810627-ok", "flags": [{"start": 0, "end": 6, "word": "COGDEN", "fix": "OGDEN", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-299-393705790-err", "flags": []}
+{"id": "wiki-299-393705790-ok", "flags": []}
+{"id": "wiki-300-18637382-err", "flags": [{"start": 0, "end": 11, "word": "Franklinton", "fix": "Franklin ton", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-300-18637382-ok", "flags": [{"start": 0, "end": 11, "word": "Franklinton", "fix": "Franklin ton", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-301-368728335-err", "flags": []}
+{"id": "wiki-301-368728335-ok", "flags": []}
+{"id": "wiki-302-418950063-err", "flags": []}
+{"id": "wiki-302-418950063-ok", "flags": []}
+{"id": "wiki-303-4479638-err", "flags": [{"start": 6, "end": 16, "word": "endeavours", "fix": "endeavors", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 50, "end": 57, "word": "Calvins", "fix": "Calvin's", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 119, "end": 123, "word": "dont", "fix": "don't", "rule": "EN_CONTRACTION_SPELLING", "kind": "realword"}]}
+{"id": "wiki-303-4479638-ok", "flags": [{"start": 6, "end": 16, "word": "endeavours", "fix": "endeavors", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 50, "end": 57, "word": "Calvins", "fix": "Calvin's", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 119, "end": 123, "word": "dont", "fix": "don't", "rule": "EN_CONTRACTION_SPELLING", "kind": "realword"}]}
+{"id": "wiki-304-375643419-err", "flags": []}
+{"id": "wiki-304-375643419-ok", "flags": []}
+{"id": "wiki-305-325753398-err", "flags": []}
+{"id": "wiki-305-325753398-ok", "flags": []}
+{"id": "wiki-306-117693376-err", "flags": [{"start": 31, "end": 36, "word": "Filon", "fix": "Felon", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 37, "end": 42, "word": "Kmita", "fix": "Krita", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-306-117693376-ok", "flags": [{"start": 31, "end": 36, "word": "Filon", "fix": "Felon", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 37, "end": 42, "word": "Kmita", "fix": "Krita", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-308-28661778-err", "flags": []}
+{"id": "wiki-308-28661778-ok", "flags": []}
+{"id": "wiki-310-20155168-err", "flags": []}
+{"id": "wiki-310-20155168-ok", "flags": []}
+{"id": "wiki-311-58953038-err", "flags": []}
+{"id": "wiki-311-58953038-ok", "flags": []}
+{"id": "wiki-312-84684029-err", "flags": []}
+{"id": "wiki-312-84684029-ok", "flags": []}
+{"id": "wiki-313-151354156-err", "flags": []}
+{"id": "wiki-313-151354156-ok", "flags": []}
+{"id": "wiki-314-4498764-err", "flags": []}
+{"id": "wiki-314-4498764-ok", "flags": []}
+{"id": "wiki-315-405095222-err", "flags": []}
+{"id": "wiki-315-405095222-ok", "flags": []}
+{"id": "wiki-316-333403392-err", "flags": []}
+{"id": "wiki-316-333403392-ok", "flags": []}
+{"id": "wiki-317-323930355-err", "flags": []}
+{"id": "wiki-317-323930355-ok", "flags": []}
+{"id": "wiki-318-330347788-err", "flags": [{"start": 74, "end": 79, "word": "Comix", "fix": "Comic", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-318-330347788-ok", "flags": [{"start": 74, "end": 79, "word": "Comix", "fix": "Comic", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-319-52467089-err", "flags": []}
+{"id": "wiki-319-52467089-ok", "flags": []}
+{"id": "wiki-320-54869002-err", "flags": []}
+{"id": "wiki-320-54869002-ok", "flags": []}
+{"id": "wiki-321-155881424-err", "flags": [{"start": 0, "end": 7, "word": "Natalis", "fix": "Natalie", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 14, "end": 21, "word": "Invicti", "fix": "Invite", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 76, "end": 83, "word": "Natalis", "fix": "Natalie", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 90, "end": 97, "word": "Invicti", "fix": "Invite", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-321-155881424-ok", "flags": [{"start": 0, "end": 7, "word": "Natalis", "fix": "Natalie", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 14, "end": 21, "word": "Invicti", "fix": "Invite", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 76, "end": 83, "word": "Natalis", "fix": "Natalie", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 90, "end": 97, "word": "Invicti", "fix": "Invite", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-322-13072830-err", "flags": [{"start": 55, "end": 60, "word": "loose", "fix": "lose", "rule": "LOOSE_LOSE", "kind": "realword"}]}
+{"id": "wiki-322-13072830-ok", "flags": []}
+{"id": "wiki-323-193685544-err", "flags": []}
+{"id": "wiki-323-193685544-ok", "flags": []}
+{"id": "wiki-324-1564576-err", "flags": []}
+{"id": "wiki-324-1564576-ok", "flags": []}
+{"id": "wiki-325-104471804-err", "flags": [{"start": 41, "end": 46, "word": "Zahir", "fix": "Zahid", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-325-104471804-ok", "flags": [{"start": 41, "end": 46, "word": "Zahir", "fix": "Zahid", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-326-104471804-err", "flags": [{"start": 93, "end": 99, "word": "Zahirs", "fix": "Pairs", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-326-104471804-ok", "flags": [{"start": 94, "end": 100, "word": "Zahirs", "fix": "Pairs", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-327-109941208-err", "flags": []}
+{"id": "wiki-327-109941208-ok", "flags": []}
+{"id": "wiki-328-154891207-err", "flags": [{"start": 89, "end": 90, "word": "a", "fix": "an", "rule": "EN_A_VS_AN", "kind": "realword"}]}
+{"id": "wiki-328-154891207-ok", "flags": [{"start": 89, "end": 90, "word": "a", "fix": "an", "rule": "EN_A_VS_AN", "kind": "realword"}]}
+{"id": "wiki-329-393541873-err", "flags": [{"start": 134, "end": 139, "word": "odour", "fix": "odor", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-329-393541873-ok", "flags": [{"start": 133, "end": 138, "word": "odour", "fix": "odor", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-330-419035450-err", "flags": []}
+{"id": "wiki-330-419035450-ok", "flags": []}
+{"id": "wiki-331-65507756-err", "flags": [{"start": 47, "end": 55, "word": "realised", "fix": "realized", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-331-65507756-ok", "flags": []}
+{"id": "wiki-332-35401811-err", "flags": [{"start": 59, "end": 63, "word": "peak", "fix": "peek", "rule": "SNEAK_PEAK", "kind": "realword"}, {"start": 111, "end": 120, "word": "Hollyoaks", "fix": "Holly oaks", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-332-35401811-ok", "flags": [{"start": 111, "end": 120, "word": "Hollyoaks", "fix": "Holly oaks", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-333-160853391-err", "flags": []}
+{"id": "wiki-333-160853391-ok", "flags": []}
+{"id": "wiki-334-230983408-err", "flags": [{"start": 58, "end": 65, "word": "Kontiki", "fix": "Kon - Tiki", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-334-230983408-ok", "flags": [{"start": 58, "end": 65, "word": "Kontiki", "fix": "Kon - Tiki", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-335-80755731-err", "flags": []}
+{"id": "wiki-335-80755731-ok", "flags": []}
+{"id": "wiki-336-111956618-err", "flags": []}
+{"id": "wiki-336-111956618-ok", "flags": []}
+{"id": "wiki-337-421398589-err", "flags": [{"start": 78, "end": 85, "word": "clarino", "fix": "clarion", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-337-421398589-ok", "flags": [{"start": 78, "end": 85, "word": "clarino", "fix": "clarion", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-338-365730407-err", "flags": []}
+{"id": "wiki-338-365730407-ok", "flags": []}
+{"id": "wiki-339-284931719-err", "flags": []}
+{"id": "wiki-339-284931719-ok", "flags": []}
+{"id": "wiki-340-1706700-err", "flags": [{"start": 143, "end": 149, "word": "todays", "fix": "today's", "rule": "TOMORROW_POSSESSIVE_APOSTROPHE", "kind": "realword"}]}
+{"id": "wiki-340-1706700-ok", "flags": [{"start": 144, "end": 150, "word": "todays", "fix": "today's", "rule": "TOMORROW_POSSESSIVE_APOSTROPHE", "kind": "realword"}]}
+{"id": "wiki-341-98268984-err", "flags": []}
+{"id": "wiki-341-98268984-ok", "flags": []}
+{"id": "wiki-342-51914274-err", "flags": [{"start": 114, "end": 121, "word": "coprime", "fix": "cop rime", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-342-51914274-ok", "flags": [{"start": 116, "end": 123, "word": "coprime", "fix": "cop rime", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-343-8688411-err", "flags": []}
+{"id": "wiki-343-8688411-ok", "flags": []}
+{"id": "wiki-344-73315527-err", "flags": [{"start": 28, "end": 38, "word": "Wonderwall", "fix": "Wonder wall", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-344-73315527-ok", "flags": [{"start": 28, "end": 38, "word": "Wonderwall", "fix": "Wonder wall", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-345-101354888-err", "flags": []}
+{"id": "wiki-345-101354888-ok", "flags": []}
+{"id": "wiki-346-330703827-err", "flags": [{"start": 4, "end": 10, "word": "endpin", "fix": "end pin", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-346-330703827-ok", "flags": [{"start": 4, "end": 10, "word": "endpin", "fix": "end pin", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 59, "end": 64, "word": "fibre", "fix": "fiber", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-347-175476142-err", "flags": []}
+{"id": "wiki-347-175476142-ok", "flags": []}
+{"id": "wiki-348-224442277-err", "flags": []}
+{"id": "wiki-348-224442277-ok", "flags": []}
+{"id": "wiki-349-87813309-err", "flags": []}
+{"id": "wiki-349-87813309-ok", "flags": []}
+{"id": "wiki-350-252884899-err", "flags": []}
+{"id": "wiki-350-252884899-ok", "flags": []}
+{"id": "wiki-351-47002588-err", "flags": [{"start": 63, "end": 73, "word": "Dujiangyan", "fix": null, "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-351-47002588-ok", "flags": [{"start": 63, "end": 73, "word": "Dujiangyan", "fix": null, "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-352-207858135-err", "flags": [{"start": 66, "end": 72, "word": "cnidos", "fix": "Cnidus", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-352-207858135-ok", "flags": [{"start": 66, "end": 72, "word": "cnidos", "fix": "Cnidus", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-353-138754171-err", "flags": [{"start": 10, "end": 18, "word": "Candides", "fix": "Candide's", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 25, "end": 32, "word": "Cacambo", "fix": "Cacao", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 36, "end": 44, "word": "Candides", "fix": "Candide's", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-353-138754171-ok", "flags": [{"start": 10, "end": 18, "word": "Candides", "fix": "Candide's", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 25, "end": 32, "word": "Cacambo", "fix": "Cacao", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 36, "end": 44, "word": "Candides", "fix": "Candide's", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-354-21870712-err", "flags": [{"start": 23, "end": 27, "word": "span", "fix": "spans", "rule": "IT_VBZ", "kind": "realword"}, {"start": 81, "end": 89, "word": "seperate", "fix": "separate", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-354-21870712-ok", "flags": [{"start": 81, "end": 89, "word": "seperate", "fix": "separate", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-355-15021089-err", "flags": []}
+{"id": "wiki-355-15021089-ok", "flags": []}
+{"id": "wiki-356-54184159-err", "flags": []}
+{"id": "wiki-356-54184159-ok", "flags": []}
+{"id": "wiki-357-57122755-err", "flags": [{"start": 18, "end": 22, "word": "grey", "fix": "gray", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 53, "end": 59, "word": "colour", "fix": "color", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-357-57122755-ok", "flags": [{"start": 18, "end": 22, "word": "grey", "fix": "gray", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 53, "end": 59, "word": "colour", "fix": "color", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-358-254877493-err", "flags": []}
+{"id": "wiki-358-254877493-ok", "flags": []}
+{"id": "wiki-359-155657528-err", "flags": [{"start": 70, "end": 78, "word": "Chelseas", "fix": "Chelsea's", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-359-155657528-ok", "flags": [{"start": 70, "end": 78, "word": "Chelseas", "fix": "Chelsea's", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-360-145128336-err", "flags": []}
+{"id": "wiki-360-145128336-ok", "flags": []}
+{"id": "wiki-361-92606237-err", "flags": [{"start": 13, "end": 18, "word": "Howry", "fix": "Dowry", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-361-92606237-ok", "flags": [{"start": 13, "end": 18, "word": "Howry", "fix": "Dowry", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-362-201669234-err", "flags": [{"start": 69, "end": 76, "word": "Bartman", "fix": "Hartman", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-362-201669234-ok", "flags": [{"start": 69, "end": 76, "word": "Bartman", "fix": "Hartman", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-363-378974377-err", "flags": [{"start": 20, "end": 26, "word": "Hebner", "fix": "Hefner", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-363-378974377-ok", "flags": [{"start": 20, "end": 26, "word": "Hebner", "fix": "Hefner", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-364-72443868-err", "flags": []}
+{"id": "wiki-364-72443868-ok", "flags": []}
+{"id": "wiki-365-42856566-err", "flags": []}
+{"id": "wiki-365-42856566-ok", "flags": []}
+{"id": "wiki-366-57358461-err", "flags": []}
+{"id": "wiki-366-57358461-ok", "flags": []}
+{"id": "wiki-367-49016262-err", "flags": []}
+{"id": "wiki-367-49016262-ok", "flags": []}
+{"id": "wiki-368-25440746-err", "flags": []}
+{"id": "wiki-368-25440746-ok", "flags": []}
+{"id": "wiki-369-90791422-err", "flags": [{"start": 37, "end": 45, "word": "druggist", "fix": "drug gist", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 67, "end": 75, "word": "cocawine", "fix": "cocaine", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 83, "end": 93, "word": "Pembertons", "fix": "Pemberton's", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-369-90791422-ok", "flags": [{"start": 38, "end": 46, "word": "druggist", "fix": "drug gist", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 68, "end": 76, "word": "cocawine", "fix": "cocaine", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 84, "end": 94, "word": "Pembertons", "fix": "Pemberton's", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-370-119625956-err", "flags": []}
+{"id": "wiki-370-119625956-ok", "flags": []}
+{"id": "wiki-371-258429017-err", "flags": [{"start": 35, "end": 39, "word": "roll", "fix": "role", "rule": "LEAD_ROLL", "kind": "realword"}]}
+{"id": "wiki-371-258429017-ok", "flags": []}
+{"id": "wiki-372-214418265-err", "flags": [{"start": 97, "end": 105, "word": "labourer", "fix": "laborer", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-372-214418265-ok", "flags": [{"start": 97, "end": 103, "word": "labour", "fix": "labor", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-373-101319471-err", "flags": []}
+{"id": "wiki-373-101319471-ok", "flags": []}
+{"id": "wiki-374-372375295-err", "flags": []}
+{"id": "wiki-374-372375295-ok", "flags": []}
+{"id": "wiki-375-386016488-err", "flags": [{"start": 135, "end": 146, "word": "Christianum", "fix": null, "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-375-386016488-ok", "flags": [{"start": 135, "end": 146, "word": "Christianum", "fix": null, "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-377-337600593-err", "flags": []}
+{"id": "wiki-377-337600593-ok", "flags": []}
+{"id": "wiki-378-10756409-err", "flags": []}
+{"id": "wiki-378-10756409-ok", "flags": []}
+{"id": "wiki-379-123088084-err", "flags": []}
+{"id": "wiki-379-123088084-ok", "flags": []}
+{"id": "wiki-380-323994360-err", "flags": [{"start": 42, "end": 46, "word": "Midg", "fix": "Mid", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-380-323994360-ok", "flags": [{"start": 42, "end": 46, "word": "Midg", "fix": "Mid", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-381-202152816-err", "flags": [{"start": 123, "end": 127, "word": "dont", "fix": "don't", "rule": "EN_CONTRACTION_SPELLING", "kind": "realword"}]}
+{"id": "wiki-381-202152816-ok", "flags": [{"start": 123, "end": 127, "word": "dont", "fix": "don't", "rule": "EN_CONTRACTION_SPELLING", "kind": "realword"}]}
+{"id": "wiki-382-47882640-err", "flags": []}
+{"id": "wiki-382-47882640-ok", "flags": []}
+{"id": "wiki-383-199400767-err", "flags": []}
+{"id": "wiki-383-199400767-ok", "flags": []}
+{"id": "wiki-384-107648839-err", "flags": []}
+{"id": "wiki-384-107648839-ok", "flags": []}
+{"id": "wiki-385-261873885-err", "flags": []}
+{"id": "wiki-385-261873885-ok", "flags": []}
+{"id": "wiki-386-375038014-err", "flags": []}
+{"id": "wiki-386-375038014-ok", "flags": []}
+{"id": "wiki-387-1228433-err", "flags": []}
+{"id": "wiki-387-1228433-ok", "flags": []}
+{"id": "wiki-388-343540322-err", "flags": []}
+{"id": "wiki-388-343540322-ok", "flags": []}
+{"id": "wiki-389-318258900-err", "flags": [{"start": 25, "end": 34, "word": "McKinzies", "fix": "McKinzie's", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-389-318258900-ok", "flags": [{"start": 25, "end": 34, "word": "McKinzies", "fix": "McKinzie's", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-390-134173239-err", "flags": []}
+{"id": "wiki-390-134173239-ok", "flags": []}
+{"id": "wiki-391-33570838-err", "flags": []}
+{"id": "wiki-391-33570838-ok", "flags": []}
+{"id": "wiki-392-73431539-err", "flags": []}
+{"id": "wiki-392-73431539-ok", "flags": []}
+{"id": "wiki-393-100057149-err", "flags": []}
+{"id": "wiki-393-100057149-ok", "flags": []}
+{"id": "wiki-394-53863221-err", "flags": []}
+{"id": "wiki-394-53863221-ok", "flags": []}
+{"id": "wiki-395-289401634-err", "flags": []}
+{"id": "wiki-395-289401634-ok", "flags": []}
+{"id": "wiki-396-70948440-err", "flags": []}
+{"id": "wiki-396-70948440-ok", "flags": []}
+{"id": "wiki-397-278355276-err", "flags": []}
+{"id": "wiki-397-278355276-ok", "flags": []}
+{"id": "wiki-398-344135046-err", "flags": [{"start": 3, "end": 13, "word": "Catherines", "fix": "Catherine's", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 37, "end": 47, "word": "consumated", "fix": "consummated", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-398-344135046-ok", "flags": [{"start": 3, "end": 13, "word": "Catherines", "fix": "Catherine's", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 37, "end": 47, "word": "consumated", "fix": "consummated", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-399-4623458-err", "flags": [{"start": 126, "end": 131, "word": "price", "fix": "Prize", "rule": "PRICE_PRIZE", "kind": "realword"}]}
+{"id": "wiki-399-4623458-ok", "flags": []}
+{"id": "wiki-400-31310029-err", "flags": []}
+{"id": "wiki-400-31310029-ok", "flags": []}
+{"id": "wiki-401-45140962-err", "flags": []}
+{"id": "wiki-401-45140962-ok", "flags": []}
+{"id": "wiki-402-415845810-err", "flags": []}
+{"id": "wiki-402-415845810-ok", "flags": []}
+{"id": "wiki-403-410034002-err", "flags": [{"start": 0, "end": 8, "word": "Aletheus", "fix": "Alpheus", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 41, "end": 49, "word": "aletheus", "fix": "Alpheus", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-403-410034002-ok", "flags": [{"start": 0, "end": 8, "word": "Aletheus", "fix": "Alpheus", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 41, "end": 49, "word": "aletheus", "fix": "Alpheus", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-404-90572010-err", "flags": []}
+{"id": "wiki-404-90572010-ok", "flags": []}
+{"id": "wiki-405-421204889-err", "flags": []}
+{"id": "wiki-405-421204889-ok", "flags": []}
+{"id": "wiki-406-1630706-err", "flags": [{"start": 72, "end": 80, "word": "programe", "fix": "program", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-406-1630706-ok", "flags": [{"start": 14, "end": 19, "word": "tyres", "fix": "tires", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 72, "end": 80, "word": "programe", "fix": "program", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-407-3019786-err", "flags": []}
+{"id": "wiki-407-3019786-ok", "flags": []}
+{"id": "wiki-408-385543263-err", "flags": []}
+{"id": "wiki-408-385543263-ok", "flags": []}
+{"id": "wiki-409-56552107-err", "flags": []}
+{"id": "wiki-409-56552107-ok", "flags": []}
+{"id": "wiki-410-314156232-err", "flags": []}
+{"id": "wiki-410-314156232-ok", "flags": []}
+{"id": "wiki-411-55814275-err", "flags": []}
+{"id": "wiki-411-55814275-ok", "flags": []}
+{"id": "wiki-412-270972050-err", "flags": [{"start": 45, "end": 52, "word": "deserts", "fix": "desserts", "rule": "ENGLISH_WRONG_WORD_IN_CONTEXT_DESERTS_DESSERTS", "kind": "realword"}]}
+{"id": "wiki-412-270972050-ok", "flags": []}
+{"id": "wiki-413-245630782-err", "flags": []}
+{"id": "wiki-413-245630782-ok", "flags": []}
+{"id": "wiki-414-39287347-err", "flags": []}
+{"id": "wiki-414-39287347-ok", "flags": []}
+{"id": "wiki-415-127862603-err", "flags": []}
+{"id": "wiki-415-127862603-ok", "flags": []}
+{"id": "wiki-416-211785731-err", "flags": [{"start": 0, "end": 7, "word": "Shitong", "fix": "Shi tong", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 71, "end": 76, "word": "Zhiji", "fix": "Fiji", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-416-211785731-ok", "flags": [{"start": 0, "end": 7, "word": "Shitong", "fix": "Shi tong", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 71, "end": 76, "word": "Zhiji", "fix": "Fiji", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-417-218129120-err", "flags": []}
+{"id": "wiki-417-218129120-ok", "flags": []}
+{"id": "wiki-418-6945018-err", "flags": [{"start": 44, "end": 48, "word": "isnt", "fix": "isn't", "rule": "EN_CONTRACTION_SPELLING", "kind": "realword"}]}
+{"id": "wiki-418-6945018-ok", "flags": [{"start": 44, "end": 48, "word": "isnt", "fix": "isn't", "rule": "EN_CONTRACTION_SPELLING", "kind": "realword"}]}
+{"id": "wiki-419-243801232-err", "flags": [{"start": 50, "end": 59, "word": "stickball", "fix": "stick ball", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-419-243801232-ok", "flags": [{"start": 49, "end": 58, "word": "stickball", "fix": "stick ball", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-420-247993670-err", "flags": []}
+{"id": "wiki-420-247993670-ok", "flags": []}
+{"id": "wiki-421-62652218-err", "flags": [{"start": 21, "end": 27, "word": "lagest", "fix": "largest", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-421-62652218-ok", "flags": [{"start": 21, "end": 27, "word": "lagest", "fix": "largest", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-422-168089526-err", "flags": []}
+{"id": "wiki-422-168089526-ok", "flags": []}
+{"id": "wiki-423-147000492-err", "flags": []}
+{"id": "wiki-423-147000492-ok", "flags": []}
+{"id": "wiki-424-310451995-err", "flags": []}
+{"id": "wiki-424-310451995-ok", "flags": []}
+{"id": "wiki-425-30828731-err", "flags": [{"start": 0, "end": 4, "word": "Koot", "fix": "Foot", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 107, "end": 114, "word": "realted", "fix": "related", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-425-30828731-ok", "flags": [{"start": 0, "end": 4, "word": "Koot", "fix": "Foot", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 107, "end": 114, "word": "realted", "fix": "related", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-426-35632617-err", "flags": [{"start": 2, "end": 6, "word": "dont", "fix": "don't", "rule": "EN_CONTRACTION_SPELLING", "kind": "realword"}, {"start": 47, "end": 54, "word": "Tompsci", "fix": "Compact", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 86, "end": 93, "word": "wouldnt", "fix": "wouldn't", "rule": "EN_CONTRACTION_SPELLING", "kind": "realword"}, {"start": 136, "end": 140, "word": "this", "fix": "these", "rule": "THIS_NNS", "kind": "realword"}]}
+{"id": "wiki-426-35632617-ok", "flags": [{"start": 2, "end": 6, "word": "dont", "fix": "don't", "rule": "EN_CONTRACTION_SPELLING", "kind": "realword"}, {"start": 47, "end": 54, "word": "Tompsci", "fix": "Compact", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 86, "end": 93, "word": "wouldnt", "fix": "wouldn't", "rule": "EN_CONTRACTION_SPELLING", "kind": "realword"}]}
+{"id": "wiki-427-70115144-err", "flags": []}
+{"id": "wiki-427-70115144-ok", "flags": []}
+{"id": "wiki-428-52187155-err", "flags": []}
+{"id": "wiki-428-52187155-ok", "flags": []}
+{"id": "wiki-429-54405978-err", "flags": []}
+{"id": "wiki-429-54405978-ok", "flags": []}
+{"id": "wiki-430-381584092-err", "flags": []}
+{"id": "wiki-430-381584092-ok", "flags": []}
+{"id": "wiki-431-165885701-err", "flags": []}
+{"id": "wiki-431-165885701-ok", "flags": []}
+{"id": "wiki-432-15905414-err", "flags": []}
+{"id": "wiki-432-15905414-ok", "flags": []}
+{"id": "wiki-433-259300198-err", "flags": []}
+{"id": "wiki-433-259300198-ok", "flags": []}
+{"id": "wiki-434-44449118-err", "flags": [{"start": 25, "end": 31, "word": "Cogito", "fix": "Bonito", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-434-44449118-ok", "flags": [{"start": 25, "end": 31, "word": "Cogito", "fix": "Bonito", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-435-245035-err", "flags": []}
+{"id": "wiki-435-245035-ok", "flags": []}
+{"id": "wiki-436-1453966-err", "flags": []}
+{"id": "wiki-436-1453966-ok", "flags": []}
+{"id": "wiki-437-87457405-err", "flags": []}
+{"id": "wiki-437-87457405-ok", "flags": []}
+{"id": "wiki-438-276497109-err", "flags": []}
+{"id": "wiki-438-276497109-ok", "flags": []}
+{"id": "wiki-439-367831040-err", "flags": []}
+{"id": "wiki-439-367831040-ok", "flags": []}
+{"id": "wiki-440-60775304-err", "flags": [{"start": 17, "end": 27, "word": "Smallville", "fix": "Millville", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 90, "end": 96, "word": "cannon", "fix": "cannoned", "rule": "BEEN_PART_AGREEMENT", "kind": "realword"}]}
+{"id": "wiki-440-60775304-ok", "flags": [{"start": 17, "end": 27, "word": "Smallville", "fix": "Millville", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-441-4485661-err", "flags": []}
+{"id": "wiki-441-4485661-ok", "flags": []}
+{"id": "wiki-442-217709083-err", "flags": [{"start": 61, "end": 68, "word": "seqMayr", "fix": "summary", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-442-217709083-ok", "flags": [{"start": 61, "end": 68, "word": "seqMayr", "fix": "summary", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-443-53306940-err", "flags": []}
+{"id": "wiki-443-53306940-ok", "flags": []}
+{"id": "wiki-444-205135436-err", "flags": []}
+{"id": "wiki-444-205135436-ok", "flags": []}
+{"id": "wiki-445-4304028-err", "flags": []}
+{"id": "wiki-445-4304028-ok", "flags": []}
+{"id": "wiki-446-44590199-err", "flags": []}
+{"id": "wiki-446-44590199-ok", "flags": []}
+{"id": "wiki-447-244453178-err", "flags": []}
+{"id": "wiki-447-244453178-ok", "flags": []}
+{"id": "wiki-448-117897782-err", "flags": []}
+{"id": "wiki-448-117897782-ok", "flags": []}
+{"id": "wiki-449-334675577-err", "flags": [{"start": 37, "end": 44, "word": "Paquete", "fix": "Parquet", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 117, "end": 124, "word": "statues", "fix": "statutes", "rule": "ENGLISH_WRONG_WORD_IN_CONTEXT_STATUES_STATUTES", "kind": "realword"}]}
+{"id": "wiki-449-334675577-ok", "flags": [{"start": 37, "end": 44, "word": "Paquete", "fix": "Parquet", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-450-587465-err", "flags": [{"start": 4, "end": 12, "word": "companys", "fix": "companies", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 70, "end": 77, "word": "Tramiel", "fix": "Trammel", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-450-587465-ok", "flags": [{"start": 4, "end": 12, "word": "companys", "fix": "companies", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 70, "end": 77, "word": "Tramiel", "fix": "Trammel", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-451-61307846-err", "flags": []}
+{"id": "wiki-451-61307846-ok", "flags": []}
+{"id": "wiki-452-131462049-err", "flags": [{"start": 107, "end": 116, "word": "principal", "fix": "principle", "rule": "IN_PRINCIPAL", "kind": "realword"}]}
+{"id": "wiki-452-131462049-ok", "flags": []}
+{"id": "wiki-453-396820960-err", "flags": []}
+{"id": "wiki-453-396820960-ok", "flags": []}
+{"id": "wiki-454-12845906-err", "flags": []}
+{"id": "wiki-454-12845906-ok", "flags": []}
+{"id": "wiki-455-245810-err", "flags": [{"start": 4, "end": 17, "word": "consulamentum", "fix": null, "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-455-245810-ok", "flags": [{"start": 4, "end": 17, "word": "consulamentum", "fix": null, "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-456-402402292-err", "flags": []}
+{"id": "wiki-456-402402292-ok", "flags": []}
+{"id": "wiki-458-7987754-err", "flags": []}
+{"id": "wiki-458-7987754-ok", "flags": []}
+{"id": "wiki-459-93545246-err", "flags": []}
+{"id": "wiki-459-93545246-ok", "flags": []}
+{"id": "wiki-460-21504204-err", "flags": []}
+{"id": "wiki-460-21504204-ok", "flags": []}
+{"id": "wiki-461-276087616-err", "flags": [{"start": 8, "end": 9, "word": "a", "fix": "an", "rule": "EN_A_VS_AN", "kind": "realword"}]}
+{"id": "wiki-461-276087616-ok", "flags": [{"start": 8, "end": 9, "word": "a", "fix": "an", "rule": "EN_A_VS_AN", "kind": "realword"}]}
+{"id": "wiki-462-5962845-err", "flags": []}
+{"id": "wiki-462-5962845-ok", "flags": []}
+{"id": "wiki-463-283261651-err", "flags": []}
+{"id": "wiki-463-283261651-ok", "flags": []}
+{"id": "wiki-464-281913208-err", "flags": [{"start": 54, "end": 60, "word": "aswell", "fix": "as well", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-464-281913208-ok", "flags": [{"start": 54, "end": 60, "word": "aswell", "fix": "as well", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-465-21372437-err", "flags": []}
+{"id": "wiki-465-21372437-ok", "flags": []}
+{"id": "wiki-466-155170516-err", "flags": [{"start": 52, "end": 57, "word": "yakun", "fix": "taken", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 58, "end": 64, "word": "natima", "fix": "Fatima", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 137, "end": 143, "word": "Lankas", "fix": "Lanka's", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}
+{"id": "wiki-466-155170516-ok", "flags": [{"start": 52, "end": 57, "word": "yakun", "fix": "taken", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 58, "end": 64, "word": "natima", "fix": "Fatima", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}, {"start": 138, "end": 144, "word": "Lankas", "fix": "Lanka's", "rule": "MORFOLOGIK_RULE_EN_US", "kind": "nonword"}]}

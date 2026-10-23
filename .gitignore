@@ -2,4 +2,4 @@
 __pycache__/
 *.egg-info/
 .pytest_cache/
-macos/LPS/build/
+eval/data/
